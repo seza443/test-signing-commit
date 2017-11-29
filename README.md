@@ -1,6 +1,6 @@
 # test-signing-commit
 
-Hello here.
+Hello here changes.
 
 On windows, I installed https://www.gpg4win.org/index.html
 
@@ -19,6 +19,10 @@ To sign all tags by default (omit the *-s* flag), run `git config --global tag.g
 - `gpg --import github-sign-commit-pub-key.asc`
 
 ## Remember passphrase
+
+> I did not manage to get this work on Windows so I set an empty passphrase... with `gpg --edit-key <PASTE_YOUR_KEY_ID_HERE>` then `passwd`
+
+
 Edit *~/.gnupg/gpg-agent.conf* and paste this content:
 
 ```
