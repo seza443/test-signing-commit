@@ -1,6 +1,6 @@
 # test-signing-commit
 
-Hello here .
+Hello here changes.
 
 On windows, I installed https://www.gpg4win.org/index.html
 
@@ -31,3 +31,6 @@ use-agent
 ```
 
 Restart the gpg-agent with `gpg-connect-agent reloadagent /bye`
+
+**I also had a problem because GIT comes with its own version of GPG (v1.4.21) but GnuPG4Win comes with another version (v2.2.3)**
+To solve this problem, I check that in my ENVIRONMENT VARIABLE, *GnuPG/bin* comes **before** *git/bin* to force the use of same version (the one from GnuPG4Win).
