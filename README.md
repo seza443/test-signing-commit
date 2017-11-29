@@ -11,3 +11,9 @@ On windows, I installed https://www.gpg4win.org/index.html
 5. Commit with *-S* flag: `git commit -S -m "message"`
 
 To sign all commit by default (omit the *-S* flag), run `git config --global commit.gpgsign true`
+
+To sign all tags by default (omit the *-s* flag), run `git config --global tag.gpgsign true`
+
+## Import an existing GPG key
+- `gpg --allow-secret-key-import --import github-sign-commit-private.key`
+- `gpg --import github-sign-commit-pub-key.asc`
