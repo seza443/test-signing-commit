@@ -25,3 +25,5 @@ Edit *~/.gnupg/gpg-agent.conf* and paste this content:
 default-cache-ttl 28800
 max-cache-ttl 28800
 ```
+
+Kill the gpg-agent with `gpgconf --kill gpg-agent`
