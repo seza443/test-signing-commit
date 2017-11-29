@@ -26,4 +26,4 @@ default-cache-ttl 28800
 max-cache-ttl 28800
 ```
 
-Kill the gpg-agent with `gpgconf --kill gpg-agent`
+Restart the gpg-agent with `gpg-connect-agent reloadagent /bye`
