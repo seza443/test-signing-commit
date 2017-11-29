@@ -1,6 +1,6 @@
 # test-signing-commit
 
-Hello here changes.
+Hello here.
 
 On windows, I installed https://www.gpg4win.org/index.html
 
