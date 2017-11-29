@@ -17,3 +17,11 @@ To sign all tags by default (omit the *-s* flag), run `git config --global tag.g
 ## Import an existing GPG key
 - `gpg --allow-secret-key-import --import github-sign-commit-private.key`
 - `gpg --import github-sign-commit-pub-key.asc`
+
+## Remember passphrase
+Edit *~/.gnupg/gpg-agent.conf* and paste this content:
+
+```
+default-cache-ttl 28800
+max-cache-ttl 28800
+```
