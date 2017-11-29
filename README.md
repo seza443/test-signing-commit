@@ -25,5 +25,9 @@ Edit *~/.gnupg/gpg-agent.conf* and paste this content:
 default-cache-ttl 28800
 max-cache-ttl 28800
 ```
+Edit *~/.gnupg/gpg.conf* and uncomment the line
+```
+use-agent
+```
 
 Restart the gpg-agent with `gpg-connect-agent reloadagent /bye`
