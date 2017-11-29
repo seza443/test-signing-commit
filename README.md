@@ -20,7 +20,7 @@ To sign all tags by default (omit the *-s* flag), run `git config --global tag.g
 
 ## Remember passphrase
 
-> I did not manage to get this work on Windows so I set an empty passphrase... with `gpg --edit-key <PASTE_YOUR_KEY_ID_HERE>` then `passwd`
+> I did not manage to get this work on Windows so I set an empty passphrase... with `gpg --edit-key <PASTE_YOUR_KEY_ID_HERE>` then `passwd` and finally `save`
 
 
 Edit *~/.gnupg/gpg-agent.conf* and paste this content:
